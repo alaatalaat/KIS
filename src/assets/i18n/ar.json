@@ -1,0 +1,42 @@
+{
+  "search-about":"عم تبحث؟",
+  "shopping-basket":"سلة التسوق",
+  "categories":"الأقسام",
+  "home":"الرئيسية",
+  "menu":"قائمة الأمنيات",
+  "contactus":"تواصل معنا",
+  "our":"من نحن",
+
+  "copyRight":"كافة الحقوق محفوظة",
+
+  "newProduct":"منتج جديد",
+  "productName":"اسم المنتج",
+  "productImg":"صورة المنتج",
+  "productDes":"",
+  "productStatus":"حالة المنتج",
+  "new":"جديد",
+  "show":"عرض",
+  "priceBeforeSale":"السعر قبل الخصم",
+  "priceAfterSale":"السعر بعد الخصم",
+  "rate":"التقييم",
+  "kind":"النوع",
+  "maleClothes":"ملابس رجالي",
+  "femaleClothes":"ملابس حريمي",
+  "phones":"هواتف",
+  "laptop":"اجهزة كمبيوتر",
+  "add":"اضافة",
+
+  "login":"سجل",
+  "register":"تسجيل الدخول",
+  "email":"بريد الكتروني",
+  "password":"كلمة السر",
+  "remember-me":"تذكرني",
+
+  "firstName":"الاسم الاول",
+  "lastName":"الاسم الاخير",
+  "male":"ذكر",
+  "female":"أنثي",
+  "phoneNum":"رقم الهاتف المحمول",
+  "addAntherNum":"اضافة رقم اخر",
+  "mobValidate":"يجب عليك ادخال رقم موبايل صحيح"
+}

@@ -1,0 +1,42 @@
+{
+  "search-about":"Search About?",
+  "shopping-basket":"Basket",
+  "categories":"Sections",
+  "home":"Home",
+  "menu":"Wishlist",
+  "contactus":"Contactus",
+  "our":"Who Are We",
+
+  "copyRight":"All Copy Right ",
+
+  "newProduct":"New Product",
+  "productName":"Product Name",
+  "productImg":"Product Image",
+  "productDes":"Product Description",
+  "productStatus":"Product Status",
+  "new":"New",
+  "show":"Show",
+  "priceBeforeSale":"Product Before Sale",
+  "priceAfterSale":"Product After Sale",
+  "rate":"Rate",
+  "kind":"Kind",
+  "maleClothes":"Male Clothes",
+  "femaleClothes":"Female Clothes",
+  "phones":"Phones",
+  "laptop":"Loptops",
+  "add":"Add",
+
+  "login":"Login",
+  "register":"Register",
+  "email":"Email",
+  "password":"Password",
+  "remember-me":"Remember Me",
+
+  "firstName":"First Name",
+  "lastName":"Last Name",
+  "male":"Male",
+  "female":"Female",
+  "phoneNum":"Phone Number",
+  "addAntherNum":"Add Anther Number",
+  "mobValidate":"You must enter a valid mobile number"
+}

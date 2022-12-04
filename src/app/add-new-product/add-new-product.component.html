@@ -1,0 +1,63 @@
+<div class="container-fluid pb-5 h-100">
+  <div class="row ">
+    <form class="col-sm-12 col-md-7 mx-auto" [formGroup]="addProdForm" (ngSubmit)="addProduct()">
+     <div class="text-center mt-3"><h1>{{"newProduct"|translate}}</h1></div>
+     <div class="row">
+      <div class="col-6">
+        <label>{{"productName"|translate}}</label>
+        <input class="form-control" type="text" formControlName="productName">
+       </div>
+       <div class="col-6">
+        <label>{{"productImg"|translate}}</label>
+        <input class="form-control" type="text" formControlName="productImg">
+       </div>
+       <div class="col-12">
+        <label>{{"productDes"|translate}}</label>
+        <textarea class="form-control" rows="5" formControlName="productDescription"></textarea>
+       </div>
+       <div class="col-6">
+        <label>{{"productStatus"|translate}}</label>
+        <select class="form-select" formControlName="productStatus">
+          <option value="new">{{"new"|translate}}</option>
+          <option value="show">{{"show"|translate}}</option>
+        </select>
+       </div>
+       <div class="col-6">
+        <label>{{"priceBeforeSale"|translate}}</label>
+        <input type="text" class="form-control" formControlName="priceBeforeSale">
+       </div>
+       <div class="col-6">
+        <label>{{"priceAfterSale"|translate}}</label>
+        <input type="text" class="form-control" formControlName="priceAfterSale">
+       </div>
+       <div class="col-6">
+        <label>{{"rate"|translate}}</label>
+        <select class="form-select" formControlName="rate">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+       </div>
+       <div class="col-6">
+        <label>{{"kind"|translate}}</label>
+        <select class="form-select" #select formControlName="kind" >
+          <option value="maleClothes">{{"maleClothes" | translate}}</option>
+          <option value="femaleClothes">{{"femaleClothes" |translate}}</option>
+          <option value="phones">{{"phones"|translate}}</option>
+          <option value="laptops">{{"laptop"|translate}}</option>
+        </select>
+       </div>
+
+     </div>
+
+     <input type="submit" class="form-control" [value]="'add'|translate">
+    </form>
+  </div>
+</div>
+
+
+
+
+

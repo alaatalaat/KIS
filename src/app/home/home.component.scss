@@ -1,0 +1,60 @@
+.container-fluid:first-of-type .row>* {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  .carousel-control-next-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/130/130884.png');
+    background-size:15px 15px;
+  }
+  .carousel-control-prev-icon {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMoAAAD5CAMAAABRVVqZAAAAZlBMVEX39/cAAAD///+9vb2oqKjBwcGbm5uhoaGkpKSenp76+vqsrKzExMSvr6/09PTh4eGHh4fLy8vt7e3n5+dISEiOjo4pKSl0dHTT09MWFhZ9fX0JCQk+Pj5WVlaVlZU5OTkcHBwsLCxNhENeAAACfElEQVR4nO3dbW4aMRhFYdtJC3EKA6R8NG2Sdv+bLGqTikbM2CjSzL3mnBX40WuP+QFDCERERM2XczqWp17Gx0upW2xXq9k6mGtynu/ia/suTb2cD5QO3+JJj9l2MGkR/2+3MbWk2/i+756WM5IYfziel7OSGO/8LD2SGJdTr+zSeiXx3uy09Evik9cOG5DEaDWVQUncTL28CxqWxM5nLAVJfLChlCQ+Z6Uosbnvi5L4bEIpS1yOSoVk7zGUConJR7AaycFie9VIvlhsLyR6IdHruiSfmpEwk3FjJnoh0QuJXkj0akgyR6IWEr2Q6IVELyR6IdELiV5I9EKiV5ohUQuJXkj0QqIXEr2Q6IVELyR6IdEr3SFRC4leSPRCohcSvZDodV2SGySjhkSv9BmJWkj0QqIXEr2Q6IVELyR6IdELiV5I9MrrViQhfW1FEpbNSHJXkmxNJC1NpaWz0tATrKF7BYtqWDTDohkWzbBohkUzLJq1850QLKph0QyLZlg0w6IZFs2aslT8ShXL+GHRDItmWDTDohkWzbBoVvMGUCzjh0UzLJph0QyLZlg0q/kXLxsLc5EMi2ZYNMOiGRbNsGiGRTMsmmHRDItmWDTDotm1WTze6Xy03F/XXLCMH+dFMyya1VhaOi8tWQ556lXWVWPZTL3Iyiose5MtVmPpTLZYhcXnDXdFy4sNpWyZeoEXlBaNHJZQnIvL1fKn4bk8OFGGLVaSQcuTzxPsb/2WuRul37KcemWX12N5thtK6LEY3fWnnbNszJ5fb6Wbd5Cd151yWjr8PJU8ZltJCDnd/nqD7DvPc/KvlLrFdrWarUMyHslrOadj/g4iIvLtNzZgMBNrNBPPAAAAAElFTkSuQmCC');
+    background-size:15px 15px;
+  }
+  .carousel-control-next-icon{
+    position: absolute;
+    right: 0px; }
+  .carousel-control-prev-icon{
+    position: absolute;
+    left: 0px; }
+}
+
+.container-fluid:nth-of-type(2){
+  padding-bottom:70px;
+  .btn[value="show-all"]{color:#302CA2;font-weight:600;border-color:#302CA2;}
+  .card{
+    button[value="عرض"],button[value="جديد"]{
+      position:absolute;top:10px;left:10px;color:#fff;
+      border-radius:30px;padding: 5px 15px;text-align:center;border:none;font-size:14px;
+      font-weight:600;
+    }
+    button[value="عرض"]{background:#26A37C;}
+    button[value="جديد"]{background:#23104E;}
+    img[alt="arrow"]{position:absolute;top:10px;right:10px;color:#fff;}
+    p:not(#priceBeforeSale,#priceAfterSale){
+      margin-bottom:0px !important;color:#032326;font-weight:600;margin-top:10px;}
+    #priceBeforeSale{color:#c9c9c9;text-decoration:line-through;height:15px;}
+    #priceBeforeSale,#priceAfterSale{margin-bottom:0px;}
+    #priceAfterSale{font-weight:600;color:#23104E;}
+    div .btn{background:#302CA2;color:#fff;font-size:14px;}
+    .fa-share-alt,.fa-heart-o,.fa-heart{width:24px;height:24px;line-height:30px;color:#c9c9c9;}
+    .fa-heart{color:#302CA2;}
+  }
+}
+
+
+.active {color:#FFE621 !important;}
+.fa-star{color:#EBEBEB;gap:10px;margin:0px 1.5px;cursor:pointer;}
+
+
+.asideCard{
+  position:relative;
+  img[alt="arrow"]{position:absolute;top:5px;right:5px;color:#fff;width:15px;height:15px;}
+  button[value="عرض"],button[value="جديد"]{
+    position:absolute;top:10px;right:40px;color:#fff;width:60px;
+    border-radius:30px;text-align:center;border:none;font-size:14px;
+    font-weight:600;
+  }
+  button[value="عرض"]{background:#26A37C;}
+  button[value="جديد"]{background:#23104E;}
+  .fa-cart-arrow-down{color:#302CA2}
+  .fa{cursor:pointer;}
+}

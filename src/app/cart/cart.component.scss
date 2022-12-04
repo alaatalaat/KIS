@@ -1,0 +1,11 @@
+.container:first-of-type{
+  .row{
+    div{
+      margin: 30px 0px;
+      h4{font-weight:bold;}
+      h4 span{color:#26A37C;}
+      button[value="explore"]{background:#23104E;color:#fff;}
+      margin-top:10%;
+    }
+  }
+}

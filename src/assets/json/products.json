@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "productName": "تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+      "productImg": "../../assets/home/prod1.png",
+      "productStatus": "عرض",
+      "productDescription": "",
+      "rate": "2",
+      "priceBeforeSale": "150.00 ج.م",
+      "priceAfterSale": "90.00 ج.م",
+      "kind": "maleClothes",
+      "id": 1
+    },
+    {
+      "productName": "تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+      "productImg": "../../assets/home/prod2.png",
+      "productStatus": "جديد",
+      "productDescription": null,
+      "rate": "2",
+      "priceBeforeSale": null,
+      "priceAfterSale": "90.00 ج.م",
+      "kind": "maleClothes",
+      "id": 2
+    },
+    {
+      "productName": "تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+      "productImg": "../../assets/home/prod3.png",
+      "productStatus": "جديد",
+      "productDescription": null,
+      "rate": "2",
+      "priceBeforeSale": null,
+      "priceAfterSale": "90.00 ج.م",
+      "kind": "phones",
+      "id": 3
+    },
+    {
+      "productName": "تيشيرت-كم طويل-آرت وير-نسائي-ملابس",
+      "productImg": "../../assets/home/prod4.png",
+      "productStatus": "جديد",
+      "productDescription": null,
+      "rate": "2",
+      "priceBeforeSale": null,
+      "priceAfterSale": "90.00 ج.م",
+      "kind": "phones",
+      "id": 4
+    },
+    {
+      "productName": "تي شيرت بلون موحد وبعنق دائري للرجال",
+      "productImg": "../../assets/home/prod5.webp",
+      "productStatus": "عرض",
+      "productDescription": null,
+      "rate": "4",
+      "priceBeforeSale": null,
+      "priceAfterSale": "50.00 ج.م ",
+      "kind": "maleClothes",
+      "id": 5
+    },
+    {
+      "productName": "جاكيت بومبير بجرافيك عبارة بدون تي شيرت للرجال",
+      "productImg": "../../assets/home/prod6.jpg",
+      "productStatus": "عرض",
+      "productDescription": null,
+      "rate": "3",
+      "priceBeforeSale": null,
+      "priceAfterSale": "70.00 ج.م ",
+      "kind": "maleClothes",
+      "id": 6
+    },
+    {
+      "productName": "فستان متداخل شبكي مزخرف 3D",
+      "productImg": "../../assets/home/prod7.jpg",
+      "productStatus": "جديد",
+      "productDescription": null,
+      "rate": "4",
+      "priceBeforeSale": null,
+      "priceAfterSale": "91.00 ج.م ",
+      "kind": "femaleClothes",
+      "id": 7
+    },
+    {
+      "productName": "ابل ايفون 14 الجديد (128 جيجابايت) - ازرق",
+      "productImg": "../../assets/home/prod8.jpg",
+      "productStatus": "جديد",
+      "productDescription": null,
+      "rate": "4",
+      "priceBeforeSale": null,
+      "priceAfterSale": "29.590 ج.م",
+      "kind": "phones",
+      "id": 8
+    },
+    {
+      "productName": "لاب توب للالعاب فيكتس من اتش بي، الجيل 12 i5-12450H 8 كور، رام 8 جيجابايت",
+      "productImg": "../../assets/home/prod9.jpg",
+      "productStatus": "عرض",
+      "productDescription": null,
+      "rate": "3",
+      "priceBeforeSale": null,
+      "priceAfterSale": "20.649 ج.م",
+      "kind": "laptops",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "explore": [
+    {
+      "productName": "تيشيرت-كم طويل-آرت",
+      "productImg": "../../assets/home/prod10.png",
+      "productStatus": "جديد",
+      "productDescription": "",
+      "priceBeforeSale": "",
+      "priceAfterSale": "90.00 ج.م",
+      "kind": "maleClothes",
+      "id": 1
+      },
+      {
+      "productName": "تيشيرت-كم طويل-آرت ",
+      "productImg": "../../assets/home/prod11.png",
+      "productStatus": "عرض",
+      "productDescription": null,
+      "priceBeforeSale": "150.00 ج.م",
+      "priceAfterSale": "90.00 ج.م",
+      "kind": "maleClothes",
+      "id": 2
+      },
+      {
+      "productName": "تيشيرت-كم طويل-آرت ",
+      "productImg": "../../assets/home/prod12.png",
+      "productStatus":"",
+      "productDescription": null,
+      "priceBeforeSale": null,
+      "priceAfterSale": "90.00 ج.م",
+      "kind": "phones",
+      "id": 3
+      }
+  ]
+}

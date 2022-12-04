@@ -1,0 +1,58 @@
+<div class="text-center" id="header">
+  <h4>{{"register" | translate }} | <span>{{"login"|translate}}</span></h4>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-7 mx-auto mt-4">
+      <form [formGroup]="registerForm" (ngSubmit)="enrollData()">
+        <div>
+          <label>{{"firstName"|translate}}</label>
+          <input type="text" [placeholder]="'firstName'|translate" formControlName="fname"
+          [class.border-danger]="firstName?.invalid && firstName?.touched ">
+        </div>
+
+        <div>
+          <label>{{"lastName"|translate}}</label>
+          <input type="text" [placeholder]="'lastName'|translate" formControlName="lname"
+          [class.border-danger]="lastName?.invalid && lastName?.touched ">
+        </div>
+
+        <div>
+          <label>{{"email"|translate}}</label>
+          <input type="email" [placeholder]="'email'|translate" formControlName="email"
+          [class.border-danger]="email?.invalid && email?.touched ">
+        </div>
+
+        <div>
+          <label>{{"password"|translate}}</label>
+          <input type="password" [placeholder]="'password'|translate" formControlName="password"
+          [class.border-danger]="password?.invalid && password?.touched ">
+        </div>
+
+        <div>
+          <label>{{"kind"|translate}}</label>
+          <input type="radio" [value]="'male'|translate" name="genderControl" formControlName="genderControl"> {{"male"|translate}}
+          <input type="radio" [value]="'female'|translate" name="genderControl" formControlName="genderControl"> {{"female"|translate}}
+        </div>
+
+        <div>
+          <label>{{"phoneNum"|translate}}</label>
+          <input type="text" [placeholder]="'phoneNum'|translate" formControlName="phone"
+          [class.border-danger]="phone?.invalid && phone?.touched ">
+          <div *ngIf="phone?.invalid && phone?.touched">
+            <small *ngIf="phone?.errors?.maxlength">{{"mobValidate"|translate}}</small>
+          </div>
+
+          <div formArrayName="antherPhone" *ngFor="let ph of antherPhone.controls let i = index">
+            <input type="text" [placeholder]="'addAntherNum'|translate" [formControlName]="i">
+          </div>
+          <button id="addAntherNum" #addAntherNum (click)="addAntherPhone(addAntherNum)" type="button" class="btn bg-light" style="float:left;">{{"addAntherNum"|translate}}</button>
+        </div>
+
+        <button type="submit" routerLink="/login" class="btn " id="registerSebmit">{{"login"|translate}}</button>
+
+      </form>
+    </div>
+  </div>
+</div>

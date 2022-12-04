@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg bg-light py-0 my-0">
+  <div class="py-0 my-0">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse py-2 bg-white" id="navbarSupportedContent" style="width:100vw;">
+      <div class="col-sm-12 col-md-2 py-1 text-center">
+        <img src="../../assets/logo.png" height="35px">
+      </div>
+      <div class="col-sm-12 col-md-8 py-1">
+        <div>
+          <i class="fa fa-search mx-2" aria-hidden="true"></i>
+          <input type="text" [placeholder]="'search-about' | translate">
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-2 py-1 text-center">
+        <button class="btn py-1" routerLink="/register"><i class="fa fa-user" aria-hidden="true"></i></button>
+        <button class="btn py-1 mx-1" routerLink="/cart"><span id="count">{{totalItem}}</span>{{'shopping-basket' | translate }} <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+      <ul class="navbar-nav px-2 px-md-5 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" appChangeTextColor>{{"categories"|translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home" appChangeTextColor>{{"home" | translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" appChangeTextColor>{{"menu"|translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" appChangeTextColor>{{"contactus"|translate}}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" appChangeTextColor>{{"our"|translate}}</a>
+        </li>
+
+        <li class="nav-item">
+          <img src="../../assets/en.png" (click)="changeSrc(img)" #img class="nav-link" height="50px">
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+
+
